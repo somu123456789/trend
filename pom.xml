@@ -1,0 +1,20 @@
+<project>
+  ...
+  
+  <properties>
+    <sonar.projectKey>your_project_key</sonar.projectKey>
+    <sonar.host.url>https://your-sonarqube-server.com</sonar.host.url>
+    <sonar.login>${env.SONAR_TOKEN}</sonar.login> <!-- Assuming you pass the token as environment variable -->
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.11.0.3922</version> <!-- Latest version as of 2025 -->
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
