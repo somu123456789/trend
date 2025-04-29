@@ -1,0 +1,13 @@
+# Required SonarQube Project Information
+sonar.projectKey=your_project_key
+sonar.projectName=Your Project Name
+sonar.projectVersion=1.0
+
+# Source code directory
+sonar.sources=src
+
+# Encoding of the source code
+sonar.sourceEncoding=UTF-8
+
+# Optional: ignore some files or folders
+# sonar.exclusions=**/*.spec.js,**/*.test.js
